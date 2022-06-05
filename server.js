@@ -32,7 +32,7 @@ app.listen(process.env.PORT || PORT, () => {
 
 const eldenRingMainBosses = {
     'godrick': {
-        'full name': 'Godrick the Grafted',
+        'full_name': 'Godrick the Grafted',
         'location': 'Stormveil Castle',
         'health': 6080,
         'runes': 20000,
@@ -40,7 +40,7 @@ const eldenRingMainBosses = {
     },
 
     'unknown' : {
-        'full name': 'unknown',
+        'full_name': 'unknown',
         'location': 'lands between',
         'health': 0,
         'runes': 0,
@@ -48,7 +48,7 @@ const eldenRingMainBosses = {
     }, 
     
     'rennala': {
-        'full name': 'Rennala, Queen of the Full Moon',
+        'full_name': 'Rennala, Queen of the Full Moon',
         'location': 'Raya Lucaria Academy',
         'health': ["phase one: 3493", "phase one: 4097"],
         'runes': 40000,
@@ -56,7 +56,7 @@ const eldenRingMainBosses = {
     }, 
     
     'radahn': {
-        'full name': 'Starscourge Radahn',
+        'full_name': 'Starscourge Radahn',
         'location': 'Redmane Castle, Caelid',
         'health': 9572,
         'runes': 70000,
@@ -64,7 +64,7 @@ const eldenRingMainBosses = {
     },  
     
     'morgott': {
-        'full name': 'Morgott, The Omen King',
+        'full_name': 'Morgott, The Omen King',
         'location': 'Leyndell, Royal Capital',
         'health': 10399,
         'runes': 90000,
@@ -72,15 +72,15 @@ const eldenRingMainBosses = {
     },  
     
     'rykard': {
-        'full name': 'Rykard, Lord of Blasphemy',
+        'full_name': 'Rykard, Lord of Blasphemy',
         'location': 'Volcano Manor',
         'health': 59174,
         'runes': 130000,
         'drops': ["Remembrance of the Blasphemous","Rykard's Great Rune"]
     },  
-    
+
     'mohg': {
-        'full name': 'Mohg, Lord of Blood',
+        'full_name': 'Mohg, Lord of Blood',
         'location': 'Mohgwyn Palace',
         'health': 18389,
         'runes': 420000,
@@ -88,7 +88,7 @@ const eldenRingMainBosses = {
     },  
     
     'malenia': {
-        'full name': 'Malenia, Blade of Miquella',
+        'full_name': 'Malenia, Blade of Miquella',
         'location': 'Elphael, Brace of the Haligtree',
         'health': 33251,
         'runes': 480000,
@@ -96,7 +96,7 @@ const eldenRingMainBosses = {
     },  
     
     'fortissax': {
-        'full name': 'Lichdragon Fortissax',
+        'full_name': 'Lichdragon Fortissax',
         'location': 'Deeproot Depths',
         'health': 12903,
         'runes': 90000,
@@ -104,7 +104,7 @@ const eldenRingMainBosses = {
     },  
     
     'maliketh': {
-        'full name': ['Beast Clergyman', 'Maliketh, The Black Blade'],
+        'full_name': ['Beast Clergyman', 'Maliketh, The Black Blade'],
         'location': ' Crumbling Farum Azula',
         'health': 10620,
         'runes': 220000,
@@ -112,7 +112,7 @@ const eldenRingMainBosses = {
     },  
     
     'astel': {
-        'full name': 'Astel, Naturalborn of the Void',
+        'full_name': 'Astel, Naturalborn of the Void',
         'location': 'Grand Cloister, Lake of Rot',
         'health': 11170,
         'runes': 80000,
@@ -120,7 +120,7 @@ const eldenRingMainBosses = {
     },  
     
     'regal ancestor spirit': {
-        'full name': 'Regal Ancestor Spirit',
+        'full_name': 'Regal Ancestor Spirit',
         'location': 'Nokron, Eternal City',
         'health': 6301,
         'runes': 24000,
@@ -128,7 +128,7 @@ const eldenRingMainBosses = {
     },  
     
     'radagon': {
-        'full name': 'Radagon of the Golden Order',
+        'full_name': 'Radagon of the Golden Order',
         'location': 'Stone Platform at Elden Throne, Leyndell',
         'health': 9572,
         'runes': 'N/A',
@@ -136,7 +136,7 @@ const eldenRingMainBosses = {
     },  
     
     'elden beast': {
-        'full name': 'Elden Beast',
+        'full_name': 'Elden Beast',
         'location': 'Stone Platform at Elden Throne, Leyndell',
         'health': 22127,
         'runes': 500000,
@@ -144,7 +144,7 @@ const eldenRingMainBosses = {
     },  
     
     'fire giant': {
-        'full name': 'Fire Giant',
+        'full_name': 'Fire Giant',
         'location': 'Flame Peak, Mountaintops of the Giants',
         'health': 43263,
         'runes': 135000,
@@ -152,7 +152,7 @@ const eldenRingMainBosses = {
     },  
     
     'godfrey': {
-        'full name': 'Godfrey, First Elden Lord',
+        'full_name': 'Godfrey, First Elden Lord',
         'location': 'Leyndell, Capital of Ash',
         'health': 21903,
         'runes': 300000,
@@ -160,7 +160,7 @@ const eldenRingMainBosses = {
     },  
     
     'placidusax': {
-        'full name': 'Dragonlord Placidusax',
+        'full_name': 'Dragonlord Placidusax',
         'location': 'Crumbling Farum Azula',
         'health': 26651,
         'runes': 280000,
@@ -168,7 +168,7 @@ const eldenRingMainBosses = {
     },
     
     'sir gideon ofnir': {
-        'full name': 'Sir Gideon Ofnir, The All-Knowing',
+        'full_name': 'Sir Gideon Ofnir, The All-Knowing',
         'location': 'Leyndell, Capital of Ash',
         'health': 6226,
         'runes': 150000,
@@ -176,7 +176,7 @@ const eldenRingMainBosses = {
     },  
     
     'godskin duo': {
-        'full name': 'Godskin Duo',
+        'full_name': 'Godskin Duo',
         'location': 'Crumbling Farum Azula',
         'health': 26350,
         'runes': 170000,
@@ -184,7 +184,7 @@ const eldenRingMainBosses = {
     }, 
     
     'golden shade godfrey' : {
-        'full name': 'Godfrey, First Elden Lord (Golden Shade)',
+        'full_name': 'Godfrey, First Elden Lord (Golden Shade)',
         'location': 'Leyndell, Royal Capital',
         'health': 7099,
         'runes': 80000,
