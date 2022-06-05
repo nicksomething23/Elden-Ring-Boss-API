@@ -10,6 +10,10 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/api', (request, response) => {
+    response.json(eldenRingMainBosses)
+})
+
 app.get('/boss/:name', (request, response) => {
     const bossName = request.params.name.toLowerCase()
     if (eldenRingMainBosses[bossName]) {
@@ -179,7 +183,7 @@ const eldenRingMainBosses = {
         'drops': ["Smithing-Stone Miner's Bell Bearing [4]", 'Ash of War: Black Flame Tornado']
     }, 
     
-    'golden shade godfrey': {
+    'golden shade godfrey' : {
         'full name': 'Godfrey, First Elden Lord (Golden Shade)',
         'location': 'Leyndell, Royal Capital',
         'health': 7099,
