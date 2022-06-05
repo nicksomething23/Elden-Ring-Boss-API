@@ -54,7 +54,7 @@ const eldenRingMainBosses = {
     'radahn': {
         'full name': 'Starscourge Radahn',
         'location': 'Redmane Castle, Caelid',
-        'health':  9572,
+        'health': 9572,
         'runes': 70000,
         'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
     },  
@@ -62,7 +62,7 @@ const eldenRingMainBosses = {
     'morgott': {
         'full name': 'Morgott, The Omen King',
         'location': 'Leyndell, Royal Capital',
-        'health':  10399,
+        'health': 10399,
         'runes': 90000,
         'drops': ["Remembrance of the Omen King","Morgott's Great Rune"]
     },  
@@ -70,7 +70,7 @@ const eldenRingMainBosses = {
     'rykard': {
         'full name': 'Rykard, Lord of Blasphemy',
         'location': 'Volcano Manor',
-        'health':  59174,
+        'health': 59174,
         'runes': 130000,
         'drops': ["Remembrance of the Blasphemous","Rykard's Great Rune"]
     },  
@@ -78,7 +78,7 @@ const eldenRingMainBosses = {
     'mohg': {
         'full name': 'Mohg, Lord of Blood',
         'location': 'Mohgwyn Palace',
-        'health':  18389,
+        'health': 18389,
         'runes': 420000,
         'drops': ["Remembrance of the Blood Lord","Mohg's Great Rune"]
     },  
@@ -86,7 +86,7 @@ const eldenRingMainBosses = {
     'malenia': {
         'full name': 'Malenia, Blade of Miquella',
         'location': 'Elphael, Brace of the Haligtree',
-        'health':  33251,
+        'health': 33251,
         'runes': 480000,
         'drops': ["Remembrance of the Rot Goddess","Malenia's Great Rune"]
     },  
@@ -94,73 +94,97 @@ const eldenRingMainBosses = {
     'fortissax': {
         'full name': 'Lichdragon Fortissax',
         'location': 'Deeproot Depths',
-        'health':  12903,
+        'health': 12903,
         'runes': 90000,
-        'drops': "Remembrance of the Lichdragon"
+        'drops': ["Remembrance of the Lichdragon", "Mending Rune of the Death-Prince"]
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'maliketh': {
+        'full name': ['Beast Clergyman', 'Maliketh, The Black Blade'],
+        'location': ' Crumbling Farum Azula',
+        'health': 10620,
+        'runes': 220000,
+        'drops': "Remembrance of the Black Blade"
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'astel': {
+        'full name': 'Astel, Naturalborn of the Void',
+        'location': 'Grand Cloister, Lake of Rot',
+        'health': 11170,
+        'runes': 80000,
+        'drops': "Remembrance of the Naturalborn"
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'regal ancestor spirit': {
+        'full name': 'Regal Ancestor Spirit',
+        'location': 'Nokron, Eternal City',
+        'health': 6301,
+        'runes': 24000,
+        'drops': "Remembrance of the Regal Ancestor",
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'radagon': {
+        'full name': 'Radagon of the Golden Order',
+        'location': 'Stone Platform at Elden Throne, Leyndell',
+        'health': 9572,
+        'runes': 'N/A',
+        'drops': 'N/A'
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'elden beast': {
+        'full name': 'Elden Beast',
+        'location': 'Stone Platform at Elden Throne, Leyndell',
+        'health': 22127,
+        'runes': 500000,
+        'drops': "Elden Remembrance"
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'fire giant': {
+        'full name': 'Fire Giant',
+        'location': 'Flame Peak, Mountaintops of the Giants',
+        'health': 43263,
+        'runes': 135000,
+        'drops': "Remembrance of the Fire Giant"
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'godfrey': {
+        'full name': 'Godfrey, First Elden Lord',
+        'location': 'Leyndell, Capital of Ash',
+        'health': 21903,
+        'runes': 300000,
+        'drops': "Remembrance of Hoarah Loux"
     },  
     
-    'radahn': {
-        'full name': 'Starscourge Radahn',
-        'location': 'Redmane Castle, Caelid',
-        'health':  9572,
-        'runes': 70000,
-        'drops': ["Remembrance of the Starscourge","Radahn's Great Rune"]
+    'placidusax': {
+        'full name': 'Dragonlord Placidusax',
+        'location': 'Crumbling Farum Azula',
+        'health': 26651,
+        'runes': 280000,
+        'drops': "Remembrance of the Dragonlord"
+    },
+    
+    'sir gideon ofnir': {
+        'full name': 'Sir Gideon Ofnir, The All-Knowing',
+        'location': 'Leyndell, Capital of Ash',
+        'health': 6226,
+        'runes': 150000,
+        'drops': ["All-Knowing Helm","All-Knowing Armor","All-Knowing Gauntlets","All-Knowing Greaves","Scepter of the All-Knowing"]
+    },  
+    
+    'godskin duo': {
+        'full name': 'Godskin Duo',
+        'location': 'Crumbling Farum Azula',
+        'health': 26350,
+        'runes': 170000,
+        'drops': ["Smithing-Stone Miner's Bell Bearing [4]", 'Ash of War: Black Flame Tornado']
+    }, 
+    
+    'golden shade godfrey': {
+        'full name': 'Godfrey, First Elden Lord (Golden Shade)',
+        'location': 'Leyndell, Royal Capital',
+        'health': 7099,
+        'runes': 80000,
+        'drops': "Talisman Pouch"
     }, 
     
 }
